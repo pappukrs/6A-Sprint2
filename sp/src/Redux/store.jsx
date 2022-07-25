@@ -1,4 +1,3 @@
-import reducer from "./reducer";
 import { createStore, combineReducer, applyMiddleware, compose } from "redux";
 import Loginreducer from "./loginreducer";
 import { thunk } from "redux-thunk";
